@@ -3,97 +3,139 @@
     <head>
         <meta charset="UTF-8">
         <title>Chidubem Ezenwa CV</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="chidubem.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>Chidubem Ezenwa</h1>
-            <p>Lagos, NG | <a href="mailto:chidubemezenwa1@gmail.com">chidubemezenwa1@gmail.com</a> | <a href="linkedin.com/chidubem-ezenwa">Linkedin profile</a></p>
+        <header> <!-- main header -->
+                <nav>
+                    <div class="container">
+                        <h1 class="logo"><a href="#">Chidubem Ezenwa</a></h1>
+                        <ul class="main-nav">
+                            <li class="nav-li"><a href="#skills">Skills</a></li>
+                            <li class="nav-li"><a href="#experience">Experience</a></li>
+                            <li class="nav-li"><a href="#education">Education</a></li>
+                            <li class="nav-li"><a href="#others">Others</a></li>
+                    </div>
+                    </ul>
+                </nav>
         </header>
 
+        <div class="banner"> <!-- hero section -->
+            <div class="b-content">
+                <img class="profile-image" src="https://res.cloudinary.com/chidubem/image/upload/v1566520953/Chidubem_Ezenwa_s3uug2.jpg">
+                <h1 class="h1-banner">Designer & Front-end Web Developer</h1>
+                <p class="p-banner">I'm an aspiring UI/UX designer with a keen interest in front-end web development. I'm currently<br>
+                    immersing myself in all things front-end development, UX, UI, Web and Product Design.</p>
+            </div>
+            <div class="icons">
+                <ul>
+                    <li class="logo-li"><a href="twitter.com/ezenwa_chidubem" target="_blank"><small class="logo-small">Twitter</small></a></li>
+                    <li class="logo-li"><a href="linkedin.com/in/chidubem-ezenwa" target="_blank"><small class="logo-small">Linkedin</small></a></li>
+                    <li class="logo-li"><a href="github.com/Chidubem-Ezenwa" target="_blank"><small class="logo-small">Github</small></a></li>
+                </ul>
+            </div>
+        </div>
 
-        <section>
-            <img src="https://res.cloudinary.com/chidubem/image/upload/v1566520953/Chidubem_Ezenwa_s3uug2.jpg" alt="Chidubem">
-            <h3>PROFESSIONAL SUMMARY</h3>
-            <p>I'm an aspiring UI/UX designer with a keen interest in front-end web development. I'm currently<br>
-            immersing myself in all things front-end development, UX, UI, Web and Product Design.</p>
-        </section>  <!-- End of Professional Summary -->
-        
-
-        <section>
-            <h3>SKILLS</h3>
-            <ul>
-                <li>User research</li>
-                <li>Wireframing</li>
-                <li>User interface design</li>
-                <li>HTML, CSS and a bit of JavaScript</li>
-                <li>WordPress</li>
-                <li>Search Engine Optimization (SEO)</li>
-            </ul>
-        </section>  <!-- End of Skills -->
-
-
-        <section>
-            <h3>WORK EXPERIENCE</h3>
-            <h4><strong>Crefounder</strong> - <i>Graphic Designer</i><br>
-            <strong>Feb 2018 - Apr 2018</strong></h4>
-            <ul>
-                <li>Designed flyers for upcoming events on campus.</li>
-                <li>Created posters for use on social media pages.</li>
-            </ul>
-
-            <h4><strong>Commath Technologies</strong> - <i>Web Designer (Apprentice)</i><br>
-            <strong>May 2017 - Jul 2017</strong></h4>
-            <ul>
-                <li>Assisted in building websites for clients using WordPress.</li>
-                <li>Learned graphic design essentials; typography, composition, alignment etc.</li>
-            </ul>
-        </section>  <!-- End of Work Experience -->
+        <main>
+            <div class="main-layout">
+                <section>
+                    <h2 class="h2-skills" id="skills">Skills</h2>
+                    <div class="list-style">
+                        <ul>
+                            <li>User research</li>
+                            <li>Wireframing</li>
+                            <li>User interface design</li>
+                            <li>HTML, CSS and a bit of JavaScript</li>
+                            <li>WordPress</li>
+                            <li>Search Engine Optimization (SEO)</li>
+                        </ul>
+                    </div>
+                </section>  <!-- End of Skills -->
 
 
-        <section>
-            <h3>EDUCATION AND CERTIFICATIONS</h3>
-            <h4><strong>Covenant University, Ota</strong> - <i>BSc. Business Administration</i><br>
-            <strong>2016 - 2020</strong></h4>
-            <ul>
-                <li><strong>Current CGPA:</strong> 4.71</li>
-                <li>Former tutorial coordinator for year 1 and 2 Business Administration Students (2017/2018 session).</li>
-            </ul>
+            <section>
+                <h2 class="h2-experience" id="experience">Experience</h2>
+                <div class="experience-layout">
+                    <h4><strong>Crefounder</strong> - <i>Graphic Designer</i><br>
+                    <strong>Feb 2018 - Apr 2018</strong></h4>
+                    <ul>
+                        <li>Designed flyers for upcoming events on campus.</li>
+                        <li>Created posters for use on social media pages.</li>
+                    </ul>
+
+                    <h4><strong>Commath Technologies</strong> - <i>Web Designer (Apprentice)</i><br>
+                    <strong>May 2017 - Jul 2017</strong></h4>
+                    <ul>
+                        <li>Assisted in building websites for clients using WordPress.</li>
+                        <li>Learned graphic design essentials; typography, composition, alignment etc.</li>
+                    </ul>
+                </div>
+            </section>  <!-- End of Work Experience -->
+
+
+            <section>
+                <h2 class="h2-education" id="education">Education and Certifications</h2>
+                <div class="education-layout">
+                    <h4><strong>Covenant University, Ota</strong> - <i>BSc. Business Administration</i><br>
+                    <strong>2016 - 2020</strong></h4>
+                    <ul>
+                        <li><strong>Current CGPA:</strong> 4.71</li>
+                        <li>Former tutorial coordinator for year 1 and 2 Business Administration Students (2017/2018 session).</li>
+                    </ul>
+                    
+                    <h4><strong>Google</strong> - <i>Fundamentals of Digital Marketing</i><br>
+                    <strong>Issued June 2018</strong></h4>
+
+                    <h4><strong>Udemy</strong> - <i>Responsive Web Design with HTML5 and CSS3</i><br>
+                    <strong>Issued June 2018</strong></h4>
+                </div>
+            </section>  <!-- End of Education and Certifications -->
+
+
+            <section>
+                <h2 class="h2-course" id="others">Relevant Coursework</h2>
+                <div class="course-layout">
+                    <ul>
+                        <li>Research Methods</li>
+                        <li>Entrepreneurial Development Studies (Digital Marketing)</li>
+                        <li>Business Communication</li>
+                        <li>Business and Company Law</li>
+                        <li>Organizational Behaviour</li>
+                    </ul>
+                </div>
+            </section>  <!-- End of Relevant Coursework -->
+
+
+            <section>
+                <h2 class="h2-leadership">Leadership Position</h2>
+                <div class="leadership-layout">
+                    <ul>
+                        <li>Group leader in Digital Marketing practical class (2018/2019).</li>
+                        <li>Tutorial Coordinator (2017/2018) academic session.</li>
+                    </ul>
+                </div>
+            </section>  <!-- End of Leadership Position -->
             
-            <h4><strong>Google</strong> - <i>Fundamentals of Digital Marketing</i><br>
-            <strong>Issued June 2018</strong></h4>
 
-            <h4><strong>Udemy</strong> - <i>Responsive Web Design with HTML5 and CSS3</i><br>
-            <strong>Issued June 2018</strong></h4>
-        </section>  <!-- End of Education and Certifications -->
+            <section>
+                <h2 class="h2-awards">Awards</h2>
+                <div class="awards-layout">
+                    <ul>
+                        <li><strong>Award of Recognition (2016/2017)</strong>: For an outstanding academic performance.</li>
+                        <li><strong>Award of Appreciation (2017/2018)</strong>: For effectively performing my duty as tutorial coordinator.</li>
+                    </ul>
+                </div>
+            </section>  <!-- End of Awards -->
+        </div>
+        </main>
 
-
-        <section>
-            <h3>RELEVANT COURSEWORK</h3>
-            <ul>
-                <li>Research Methods</li>
-                <li>Entrepreneurial Development Studies (Digital Marketing)</li>
-                <li>Business Communication</li>
-                <li>Business and Company Law</li>
-                <li>Organizational Behaviour</li>
-            </ul>
-        </section>   <!-- End of Relevant Coursework -->
-
-
-        <section>
-            <h3>LEADERSHIP POSITION</h3>
-            <ul>
-                <li>Group leader in Digital Marketing practical class (2018/2019).</li>
-                <li>Tutorial Coordinator (2017/2018) academic session.</li>
-            </ul>
-        </section>   <!-- End of Leadership Position -->
-
-
-        <section>
-            <h3>AWARDS</h3>
-            <ul>
-                <li><strong>Award of Recognition (2016/2017)</strong>: For an outstanding academic performance.</li>
-                <li><strong>Award of Appreciation (2017/2018)</strong>: For effectively performing my duty as tutorial coordinator</li>
-            </ul>
-        </section>   <!-- End of Awards -->
+        <footer>    <!-- footer -->
+            <span>Chidubem Ezenwa &copy;2019. All rights reserved.</span>
+            <br>
+            <small>Designed and developed with &#10084 by Chidubem Ezenwa.</small>
+        </footer>
+        
     </body>
 </html>
